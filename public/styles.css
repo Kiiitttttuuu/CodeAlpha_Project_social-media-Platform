@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#app {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#profile-section, #posts-section, #comments-section {
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 120px);
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#postList, #commentList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post, .comment {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post p, .comment p {
+    margin: 0;
+}
+
+.post button, .comment button {
+    background: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.post button:hover, .comment button:hover {
+    background: #218838;
+}
+
+.post span {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(100% - 120px);
+    margin-bottom: 10px;
+}
+
+#profileInfo {
+    font-weight: bold;
+}
